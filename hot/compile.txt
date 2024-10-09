@@ -1,0 +1,2 @@
+g++ -o main main.cpp -ldl
+g++ -fPIC -shared -o libMyClass.so MyClass.cpp

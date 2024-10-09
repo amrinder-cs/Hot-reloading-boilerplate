@@ -1,0 +1,2 @@
+g++ -fPIC -shared -o libmy_functions.so my_functions.cpp
+g++ -o main main.cpp -ldl
